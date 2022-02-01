@@ -1,6 +1,10 @@
 <script lang="ts">
+import { storeFE } from "./store";
+
+
     function del() {
         document.getElementById("todoelem").remove()
+        console.log(storeFE)
     } 
     export let value: string
 </script>
